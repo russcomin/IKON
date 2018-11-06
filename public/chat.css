@@ -1,6 +1,6 @@
 .club-chat {
 	width: 400px;
-	height: 320px;
+	height: 707px;
 	position: fixed;
 	background: #202835;
 	margin-left: 690px;
@@ -113,6 +113,10 @@
 	margin-top: 10px;
 }
 
+.single-line > .msg-col-2 > p {
+	margin-top: 17px;
+}
+
 .message-input::-webkit-input-placeholder {
 	font-family: Montserrat-Bold;
 	color: #565d6a;
@@ -127,23 +131,24 @@
 	border: none;
 	background: #1a212b;
 	margin-left: 12px;
-	margin-top: 15px;
+	margin-top: 7px;
 	text-indent: 20px;
 	font-size: 11px;
 	color: white;
 	letter-spacing: .3px;
 	z-index: 100;
+	border-bottom-right-radius: 0px;
 }
 
 .input-button {
-	transition: .2s;
+	transition: .3s;
 	float: right;
 	width: 320px;
-	height: 42px;
+	height: 44px;
 	border-radius: 30px; 
 	border: none;
-	background: #32cc3a;
-	margin-top: -43px;
+	background: #2b3648;
+	margin-top: -44px;
 	margin-right: 15px;
 	cursor: pointer;
 	text-align: right;
@@ -156,7 +161,7 @@
 	letter-spacing: .6px;
 	color: white;
 	margin-right: 15px;
-	line-height: 41px;
+	line-height: 43px;
 }
 
 .input-button:hover {
@@ -164,4 +169,11 @@
 -webkit-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
 -moz-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
 box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
+}
+
+.smiley {
+	position: absolute;
+	margin-top: 21px;
+	margin-left: -27px;
+	cursor: pointer;
 }

@@ -21,7 +21,7 @@ body {
 
 .feed {
 	width: 665px;
-	height: 1480px;
+	height: 2480px;
 	background: #202835;
 	float: left;
 	margin-top: 77px;
@@ -29,13 +29,15 @@ body {
 }
 
 .feed-header {
-	float: left;
-	width: 100%;
+	width: 665px;
 	height: 105px;
 	background-image: url(images/bgs/header-bg.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	position: sticky;
+	z-index: 205;
+	top: -55px;
 }
 
 .green-team {
@@ -178,10 +180,12 @@ z	text-align: center;
 }
 
 .sub-header {
-	width: 100%;
+	width: 665px;
 	height: 40px;
 	background: #191e27;
-	float: left;
+	position: sticky;
+	top: 65px;
+	z-index: 200;
 }
 
 .sub-col-1 {
@@ -262,7 +266,15 @@ z	text-align: center;
 	letter-spacing: .3px;
 	text-shadow: 0px 0px 7px rgba(132, 132, 132, 1);
 	line-height: 30px;
-	margin-left: 8px;
+	margin-left: 148px;
+	margin-top: 5px;
+}
+
+.i-icon {
+	position: absolute;
+	margin-top: 13px;
+	cursor: pointer;
+	margin-left: 128px;
 }
 
 .main:hover {
@@ -296,18 +308,9 @@ z	text-align: center;
 	color: #596376;
 }
 
-.ads {
-	width: 400px;
-	height: 300px;
-	position: fixed;
-	background: #202835;
-	margin-left: 690px;
-	margin-top: 410px;
-}
-
 .messages {
 	width: 100%;
-	height: 1400px;
+	height: 2330px;
 }
 
 .message-1 {
@@ -318,7 +321,7 @@ z	text-align: center;
 	float: left;
 	border-radius: 15px;
 	margin-left: 38px;
-	margin-top: 24px;
+	margin-top: 20px;
 	-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.19);
 	-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.19);
 	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.19);
@@ -327,9 +330,9 @@ z	text-align: center;
 .message-1:hover {
 	transition: .2s;
 	margin-left: 50px;
-	-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.49);
-	-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.49);
-	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.49);
+	-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.39);
+	-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.39);
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.39);
 
 }
 
@@ -358,7 +361,7 @@ z	text-align: center;
 
 .message-1 > p:nth-child(3) {
 	font-family: Montserrat-Medium;
-	color: #a9a9a9;
+	color: white;
 	font-size: 10px;
 	position: absolute;
 	margin-left: 38px;
@@ -426,6 +429,7 @@ z	text-align: center;
 }
 
 .message-2 {
+	transition: .2s;
 	width: 612px;
 	height: 440px;
 	-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.19);
@@ -435,13 +439,22 @@ z	text-align: center;
 	border: 1px solid #1e4153;
 	float: left;
 	margin-top: 20px;
-	margin-left: 39px;
+	margin-left: 42px;
+}
+
+.message-2:hover {
+	transition: .2s;
+	margin-left: 32px;
+	-webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.39);
+	-moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.39);
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.39);	
 }
 
 .message-2 > .msg-avatar {
 	position: absolute;
 	margin-left: -23px;
 	margin-top: 12px;
+	cursor: pointer;
 }
 
 .message-2 > p:nth-child(2) {
@@ -462,7 +475,7 @@ z	text-align: center;
 
 .message-2 > p:nth-child(3) {
 	font-family: Montserrat-Medium;
-	color: #a9a9a9;
+	color: white;
 	font-size: 10px;
 	position: absolute;
 	margin-left: 38px;
@@ -501,3 +514,78 @@ z	text-align: center;
 	margin-left: 536px;
 	margin-top: 411px;
 }
+
+.leader-post-green {
+	width: 450px;
+}
+
+.leader-post-green .time-ago {
+	margin-left: 376px;
+}
+
+.leader-post-green > p:nth-child(2) {
+	color: #36cc3e;
+} 
+
+.msg-blue {
+	transition: .2s;
+	float: right;
+	margin-right: 10px;
+	border: 1px solid #1e4153;
+}
+
+.msg-blue:hover {
+	transition: .2s;
+	margin-right: 20px;
+}
+
+.msg-blue > p:nth-child(4) {
+	color: #17afd5;
+}
+
+.msg-blue > p:nth-child(4) > img {
+	padding-left: 3px;
+	margin-top: 17px;
+}
+
+.green-video {
+	transition: .2s;
+	float: left;
+	margin-left: 32px;
+	border: 1px solid #223a36;
+}
+
+.green-video:hover {
+	transition: .2s;
+	margin-left: 40px;
+}
+
+.green-video > p:nth-child(4) {
+	color: #4ae252;
+}
+
+.green-video > p:nth-child(4) > img {
+	padding-left: 3px;
+	margin-top: 13px;
+}
+
+.leader-post-blue {
+	transition: .2s;
+	width: 450px;
+	border: 1px solid #1e4153;
+	float: right;
+	margin-right: 10px; 
+}
+
+.leader-post-blue:hover {
+	transition: .2s;
+	margin-right: 20px;
+}
+
+.leader-post-blue .time-ago {
+	margin-left: 376px;
+}
+
+.leader-post-blue > p:nth-child(2) {
+	color: #17afd5;
+} 
