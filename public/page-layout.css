@@ -517,6 +517,7 @@ z	text-align: center;
 
 .leader-post-green {
 	width: 450px;
+	border: 1px solid #37be3f;
 }
 
 .leader-post-green .time-ago {
@@ -572,7 +573,7 @@ z	text-align: center;
 .leader-post-blue {
 	transition: .2s;
 	width: 450px;
-	border: 1px solid #1e4153;
+	border: 1px solid #17afd5;
 	float: right;
 	margin-right: 10px; 
 }
