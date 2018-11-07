@@ -1,0 +1,1 @@
+function gotoClub() { document.location = "match.html" }

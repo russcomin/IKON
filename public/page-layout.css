@@ -216,14 +216,14 @@ z	text-align: center;
 .sub-col-1 > p {
 	font-family: Montserrat-Bold;
 	color: #7e7e7e;
-	font-size: 9px;
+	font-size: 9.5px;
 	float: left;
 	margin-left: 8px;
 	margin-top: 12px;
 }
 
 .sub-col-1 > p > span {
-	font-family: Montserrat-ExtraBold;
+	font-family: Montserrat-Bold;
 	color: #ffffff;
 	font-size: 11px;
 	letter-spacing: .3px;
@@ -231,21 +231,21 @@ z	text-align: center;
 
 .sub-col-2 > p {
 	font-family: Montserrat-ExtraBold;
-	font-size: 12px;
+	font-size: 11px;
 	color: #616873;
 	line-height: 37px;
 }
 
 .green-p {
 	font-family: Montserrat-ExtraBold;
-	font-size: 11px;
+	font-size: 13px;
 	color: #3cc843;
 	letter-spacing: .2px;
 }
 
 .blue-p {
 	font-family: Montserrat-ExtraBold;
-	font-size: 11px;
+	font-size: 13px;
 	color: #17afd5;
 	letter-spacing: .2px;	
 }
@@ -421,11 +421,11 @@ z	text-align: center;
 }
 
 .m-b-2 {
-	margin-left: 73px;
+	margin-left: 67px;
 }
 
 .m-b-3 {
-	margin-left: 126px;
+	margin-left: 144px;
 }
 
 .message-2 {

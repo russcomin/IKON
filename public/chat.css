@@ -1,10 +1,10 @@
 .club-chat {
 	width: 400px;
-	height: 707px;
+	height: 560px;
 	position: fixed;
 	background: #202835;
 	margin-left: 690px;
-	margin-top: 77px;
+	margin-top: 156px;
 }
 
 .chat-header {
@@ -91,12 +91,12 @@
 .msg-col-2 > p {
 	font-family: Montserrat-SemiBold;
 	color: #8a8a8a;
-	font-size: 9px;
+	font-size: 10px;
 	margin-top: 15px;
 }
 
 .msg-col-2 > p > span {
-	font-family: Montserrat-Bold;
+	font-family: Montserrat-SemiBold;
 	color: #fefefe;
 	font-size: 11px;
 	cursor: pointer;
@@ -165,10 +165,11 @@
 }
 
 .input-button:hover {
-	transition: .2s;
--webkit-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
--moz-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
+	transition: .3s;
+	-webkit-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
+	background: #32cc3a;
 }
 
 .smiley {
@@ -176,4 +177,74 @@ box-shadow: inset 0px 0px 36px -7px rgba(0,0,0,1);
 	margin-top: 21px;
 	margin-left: -27px;
 	cursor: pointer;
+}
+
+/* seeason */
+
+
+.season {
+	width: 400px;
+	height: 66px;
+	position: fixed;
+	background: #202835;
+	margin-left: 690px;
+	margin-top: 77px;	
+}
+
+.season-col-1 {
+	width: 140px;
+	height: 100%;
+	float: left;
+}
+
+.season-data {
+	font-family: Montserrat-ExtraBold;
+	color: #595e65;
+	font-size: 10px;
+	margin-left: 19px;
+	margin-top: 17px;
+}
+
+.season-title {
+	font-family: Montserrat-SemiBold;
+	color: white;
+	font-size: 14px;
+	margin-left: 19px;
+	margin-top: 3px;
+}
+
+.season-col-2 {
+	width: 112px;
+	height: 100%;
+	float: left;
+}
+
+.season-col-3 {
+	width: 140px;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+.season-col-3 > button {
+	transition: .2s;
+	width: 112px;
+	height: 40px;
+	border: none;
+	background: #2f3b4e;
+	margin-top: 13px;
+	border-radius: 3px;
+	color: #6c7687;
+	font-family: Montserrat-ExtraBold;
+	letter-spacing: .2px;
+	font-size: 9px;
+}
+
+.season-col-3 > button:hover {
+	transition: .2s;
+	margin-top: 10px;
+	-webkit-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
+	-moz-box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
+	box-shadow: 0px 0px 22px 0px rgba(0,0,0,0.34);
+	color: #8793a6;
 }
