@@ -195,14 +195,14 @@ z	text-align: center;
 }
 
 .sub-col-2 {
-	width: 109px;
+	width: 129px;
 	height: 100%;
 	float: left;
 	text-align: center;
 }
 
 .sub-col-3 {
-	width: 279px;
+	width: 259px;
 	height: 100%;
 	float: left;
 }
@@ -234,6 +234,10 @@ z	text-align: center;
 	font-size: 11px;
 	color: #616873;
 	line-height: 37px;
+}
+
+.sub-col-2 > p > span > img {
+	padding-right: 3px;
 }
 
 .green-p {
