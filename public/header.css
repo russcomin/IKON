@@ -1,7 +1,7 @@
 .header {
 	width: 100%;
 	height: 65px;
-	background: #141921;
+	background: #1d222e;
 	position: fixed;
 	z-index: 500;
 }
@@ -15,7 +15,7 @@
 .header-col-1 {
 	width: 205px;
 	height: 100%;
-	background: #11151c;
+	background: #252a37;
 	text-align: center;
 	float: left;
 }
@@ -38,7 +38,7 @@
 	height: 39px;
 	border-radius: 30px;
 	border: none;
-	background: #181d27;
+	background: #252a37;
 	margin-left: 12px;
 	margin-top: 13px;
 	text-indent: 15px;
@@ -54,7 +54,7 @@
 .header-col-2 > input::-webkit-input-placeholder {
 	font-family: Montserrat-Bold;
 	font-size: 9px;
-	color: #414753;
+	color: #555a67;
 }
 
 .header-col-2 > img {
@@ -107,14 +107,14 @@
 .header-col-5 {
 	width: 89px;
 	height: 100%;
-	background: #181e28;
+	background: #202532;
 	float: left;
 	text-align: center;
 }
 
 .header-col-5 > p:nth-child(1){
 	font-family: Montserrat-Black;  
-	color: #434849;
+	color: #4f5463;
 	font-size: 9px;
 	margin-top: 18px;
 }
@@ -130,7 +130,7 @@
 .header-col-6 {
 	width: 226px;
 	height: 100%;
-	background: #11151c;
+	background: #252a37;
 	float: left;
 }
 
@@ -156,7 +156,7 @@
 	font-family: Montserrat-Bold;  
 	font-size: 9px;
 	color: white;
-	color: #8b8b8b;
+	color: #6b7082;
 	letter-spacing: .1px;
 	margin-left: 78px;
 	margin-top: 37px;
@@ -166,8 +166,8 @@
 	width: 20px;
 	height: 18px;
 	border-radius: 5px;
-	background: #12161d;
-	border: 2px solid #1c222d;
+	background: #252a37;
+	border: 2px solid #424e5c;
 	float: right;
 	margin-top: 20px;
 	margin-right: 27px;
