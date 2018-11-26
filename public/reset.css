@@ -39,3 +39,12 @@ ul {
 button:focus { outline: none;}
 button {cursor: pointer;}
 input:focus {outline: none;}
+
+.fix-line {
+    width: 100vW;
+    height: 14.5px;
+    background: #efefef;
+    position: fixed;
+    z-index: 100;
+    margin-top: 50px;
+}

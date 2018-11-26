@@ -1,10 +1,10 @@
 .club-chat {
 	width: 400px;
-	height: 560px;
+	height: auto;
 	position: fixed;
 	background: #fefefe;
 	margin-left: 690px;
-	margin-top: 156px;
+	margin-top: 200px;
 	border-radius: 4px;
 }
 
@@ -17,9 +17,9 @@
 }
 
 .chat-header > p:first-child {
-	color: #8d8d8d;
+	color: #a1a5ac;
 	font-family: Montserrat-ExtraBold;
-	font-size: 8px;
+	font-size: 9px;
 	float: left;
 	margin-left: 14px;
 	margin-top: 11px;
@@ -60,7 +60,7 @@
 
 .message-tile {
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	float: left;
 }
 
@@ -72,44 +72,32 @@
 }
 
 .msg-col-2 {
-	width: 255px;
+	width: 330px;
 	height: 100%;
 	float: left;
-}
-
-.msg-col-3 {
-	width: 75px;
-	height: 100%;
-	float: left;
-	text-align: center;
 }
 
 .msg-col-1 > img {
-	width: 42px;
-	height: 47px;
-	margin-top: 3px;
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
 	cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid #417ece;
 }
 
 .msg-col-2 > p {
 	font-family: Montserrat-SemiBold;
-	color: #8a8a8a;
-	font-size: 10px;
+	color: #484848;
+	font-size: 12px;
 	margin-top: 15px;
 }
 
 .msg-col-2 > p > span {
 	font-family: Montserrat-Bold;
-	color: #6d6d6d;
-	font-size: 11px;
+	color: #484848;
+	font-size: 12px;
 	cursor: pointer;
-}
-
-.msg-col-3 > p {
-	color: #8b8b8b;
-	font-family: Montserrat-ExtraBold;
-	font-size: 8px;
-	margin-top: 17px;
 }
 
 .fix-msg > .msg-col-2 > p {
@@ -121,56 +109,41 @@
 }
 
 .message-input::-webkit-input-placeholder {
-	font-family: Montserrat-Bold;
-	color: #9f9f9f;
-	font-size: 9px;
+	font-family: Montserrat-SemiBold;
+	color: #a1a5ac;
+	font-size: 10px;
 	letter-spacing: 0px;
 }
 
 .message-input {
-	width: 320px;
-	height: 44px;
-	border-radius: 30px; 
+	width: 291px;
+	height: 57px;
 	border: none;
 	background: #e9e7e7;
-	margin-left: 12px;
-	margin-top: 7px;
+	margin-top: 20px;
 	text-indent: 20px;
 	font-family: Montserrat-Bold;
 	font-size: 11px;
-	color: #9f9f9f;
+	color: #484848;
 	letter-spacing: .3px;
 	z-index: 100;
 	border-bottom-right-radius: 0px;
+	float: left;
 }
 
 .input-button {
 	transition: .3s;
 	float: right;
-	width: 320px;
-	height: 44px;
-	border-radius: 30px; 
+	width: 109px;
+	height: 57px;
 	border: none;
-	background: #979798;
-	margin-top: -44px;
-	margin-right: 15px;
+	background: #e9e7e7;
+	margin-right: 0px;
+	margin-top: 20px;
 	cursor: pointer;
 	text-align: right;
-}
-
-.input-button > p {
-	text-shadow: 0px 0px 7px rgba(132, 132, 132, 1);
-	font-family: Montserrat-Bold;
-	font-size: 9px;
-	letter-spacing: .6px;
-	color: white;
-	margin-right: 15px;
-	line-height: 43px;
-}
-
-.input-button:hover {
-	transition: .3s;
-	background: #32cc3a;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
 }
 
 .smiley {
@@ -178,6 +151,24 @@
 	margin-top: 21px;
 	margin-left: -27px;
 	cursor: pointer;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.send-p {
+	transition: .2s;
+	vertical-align: middle;
+	display: inline-block;
+	font-family: Montserrat-Bold;
+	font-size: 12px;
+	color: #a1a5ac;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+.send-p:hover {
+	transition: .2s;
+	color: #e0073e;
 }
 
 /* seeason */
@@ -185,68 +176,88 @@
 
 .season {
 	width: 400px;
-	height: 66px;
+	height: 122px;
 	position: fixed;
 	background: #fefefe;
 	margin-left: 690px;
-	margin-top: 77px;
+	margin-top: 65px;
 	border-radius: 4px;	
 }
 
-.season-col-1 {
-	width: 140px;
+.season-logo {
+	width: 164px;
 	height: 100%;
-	float: left;
-}
-
-.season-data {
-	font-family: Montserrat-SemiBold;
-	color: #9d9d9d;
-	font-size: 10px;
-	margin-left: 19px;
-	margin-top: 17px;
-}
-
-.season-title {
-	font-family: Montserrat-Bold;
-	color: #4d4c4c;
-	font-size: 14px;
-	margin-left: 19px;
-	margin-top: 3px;
-}
-
-.season-col-2 {
-	width: 112px;
-	height: 100%;
-	float: left;
-}
-
-.season-col-3 {
-	width: 140px;
-	height: 100%;
+	border-right: 1px solid #eae9e9;
 	float: left;
 	text-align: center;
 }
 
-.season-col-3 > button {
-	transition: .2s;
-	width: 112px;
-	height: 40px;
-	border: none;
-	background: #f2f2f2;
-	margin-top: 13px;
-	border-radius: 3px;
-	color: #929292;
-	font-family: Montserrat-ExtraBold;
-	letter-spacing: .2px;
-	font-size: 9px;
+.season-content {
+	float: left;
+	width: 235px;
+	height: 100%;
 }
 
-.season-col-3 > button:hover {
-	transition: .2s;
-	margin-top: 10px;
-	-webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.14);
-	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.14);
-	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.14);
-	color: #8793a6;
+.s-logo {
+	margin-top: 20px;
+}
+
+.sponsor {
+	font-family: Montserrat-SemiBold;
+	color: #a1a5ac;
+	font-size: 10px;
+	margin-top: 8px;
+}
+
+.sponsor > img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -4px;
+	padding-left: 3px;
+}
+
+.season-wrapper {
+	padding: 20px 20px;
+}
+
+.season-name {
+	font-family: Montserrat-ExtraBold;
+	color: #484848;
+	font-size: 14px;
+}
+
+.season-time {
+	font-family: Montserrat-SemiBold;
+	font-size: 11px;
+	color: #a1a5ac;
+	letter-spacing: .2px;
+	margin-top: 2px;
+}
+
+.default-button {
+	transition: .3s;
+	font-family: Montserrat-Bold;
+	border: none;
+	font-size: 8px;
+	border-radius: 4px;
+	background: #323a4d;
+	color: white;
+	letter-spacing: .2px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.default-button:hover {
+	transition: .3s;
+	background: none;
+	border: 2px solid #323a4d;
+	border-bottom: 3px solid #323a4d;
+	color: #323a4d;
+	font-family: Montserrat-ExtraBold;
+}
+
+.season-r {
+	width: 91px;
+	height: 33px;
+	margin-top: 12px;
 }
