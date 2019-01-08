@@ -251,8 +251,8 @@
 
 .lama {
 	position: absolute;
-	margin-left: 575px;
-	margin-top: 78px;
+	margin-left: 560px;
+	margin-top: 80px;
 }
 
 .drops {
@@ -262,10 +262,13 @@
 }
 
 .footer {
-	width: 100%;
+	width: 1871px;
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
 	height: 600px;
 	margin-top: -340px;
-	background-image: url(images/footer.png);
+	background-image: url(images/footer-2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	z-index: 40;
@@ -291,6 +294,7 @@
 	position: absolute;
 	margin-top: -130px;
 	margin-left: -60px;
+	z-index: 100;
 }
 
 .prizes {
@@ -393,8 +397,12 @@
 }
 
 .footer-ext {
-	width: 1920px;
+	position: absolute;
+	width: 1871px;
 	height: 90px;
 	background: #1b1a1a;
 	margin: 0 auto;
+	margin-top: 260px;
+	left: 50%;
+	-webkit-transform: translate(-50%, 0);
 }
