@@ -268,7 +268,6 @@
 	background-image: url(images/footer.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
 	z-index: 40;
 }
 
@@ -394,7 +393,7 @@
 }
 
 .footer-ext {
-	width: 100%;
+	width: 1920px;
 	height: 90px;
 	background: #1b1a1a;
 	margin: 0 auto;
